@@ -23,8 +23,8 @@ The JSON file contains multiple functions, highlighted below:
 - setStyle: sets the stage for a circle marker to be created at the location of each earthquake, supported by the below
       - setColor: classifies shades of color based on the earthquake depth (green - high to surface; red - deep underground)
       - setRadius: sets the circle marker size based on the magnitude of the earthquake (bigger circle = bigger earthquake)
-- d3.JSON: a **d3 funtion**used to read and process the data found on the USGS site by converting it to a JSON format
-- L.geoJson: a **Leaflet function** to read and process the geological data
+- d3.JSON: a **d3 funtion** is used to read and process the data found on the USGS site by converting it to a JSON format
+- L.geoJson: a **Leaflet function** is used to read and process the geological data
 - setPopUp: sets a marker/popup with information on location, magnitude and depth
 
 Once libraries and markers are set, we iterate through the data, applying a circle size, color and descriptor popup to each earthquake's longitude and latitude over the last 7 days.
